@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peichun Li | Peichun</title>
+    <link>https://mepeichun.github.io/author/peichun-li/</link>
+      <atom:link href="https://mepeichun.github.io/author/peichun-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Peichun Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mepeichun.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Peichun Li</title>
+      <link>https://mepeichun.github.io/author/peichun-li/</link>
+    </image>
+    
+    <item>
+      <title>Toward Resource-Efficient Federated Learning in Mobile Edge Computing</title>
+      <link>https://mepeichun.github.io/publication/refl/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://mepeichun.github.io/publication/refl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Federated Learning with Adaptive Gradient Compression</title>
+      <link>https://mepeichun.github.io/publication/fedagc/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://mepeichun.github.io/publication/fedagc/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Social Welfare Maximization in Container-Based Task Scheduling for Parked Vehicle Edge Computing</title>
+      <link>https://mepeichun.github.io/publication/pvec/</link>
+      <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://mepeichun.github.io/publication/pvec/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

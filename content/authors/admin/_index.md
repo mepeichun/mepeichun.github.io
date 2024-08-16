@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 李培春
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Peichun Li
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Peichun
+last_name: Li
 
 # Status emoji
 status:
@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: PhD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: University of Macau
+    url: https://www.um.edu.mo/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -33,14 +33,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:your-email@example.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://github.com/mepeichun
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
@@ -48,8 +42,10 @@ profiles:
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Deep Learning
+  - Edge Computing
+  - Internet of Things
+  - Wireless Networking
 
 education:
   - area: PhD Artificial Intelligence
@@ -183,4 +179,5 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Peichun is currently a 3rd-year Master candidate at Guandong University of Technology supervised by Prof. Rong Yu. He is the recipient of the National Scholarship for undergraduates in 2017 and for graduate students in 2020. Peichun is expected to graduate later in June, 2021 and is open to opportunities at the moment.
+His research interests cover the broad area of deep learning, edge computing and distributed system, with a focus on federated learning and efficient algorithms for artificial intelligence (AI) applications. He enjoys identifying fundamental system design and performance issues in distributed systems with heterogeneous resources.

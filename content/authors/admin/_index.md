@@ -1,17 +1,10 @@
 ---
 # Display name
-title: 李培春
-
-# Name pronunciation (optional)
-name_pronunciation: Peichun Li
+title: Peichun Li
 
 # Full name (for SEO)
 first_name: Peichun
 last_name: Li
-
-# Status emoji
-status:
-  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true

@@ -39,7 +39,7 @@ publications:
 
   
   - title: "FedRelay: Federated Relay Learning for 6G Mobile Edge Intelligence"
-    authors: ["Peichun Li", "Yupei Zong", "Chaorui Zhang", "Yuan Wu", "Rong Yu"]
+    authors: ["Peichun Li", "Yupei Zhong", "Chaorui Zhang", "Yuan Wu", "Rong Yu"]
     venue: "IEEE TVT (April 2023)"
     image: "fedrelay.png"
     links:

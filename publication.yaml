@@ -1,0 +1,63 @@
+publications:
+  - title: "AnycostFL: Efficient On-Demand Federated Learning over Heterogeneous Edge Devices"
+    authors: ["Peichun Li", "Guoliang Cheng", "Xumin Huang", "Jiawen Kang", "Rong Yu", "Yuan Wu", "Miao Pan"]
+    venue: "INFOCOM 2023"
+    image: "anycostfl.png"
+    links:
+      - label: "Paper"
+        url: "https://ieeexplore.ieee.org/abstract/document/10229017"
+      - label: "Code (Coming Soon)"
+        url: "#"
+  
+  - title: "FlexGen: Efficient On-Demand Generative AI Service with Flexible Diffusion Model in Mobile Edge Networks"
+    authors: ["Peichun Li", "Huanyu Dong", "Liping Qian", "Sheng Zhou", "Yuan Wu"]
+    venue: "IEEE TCCN (April 2025)"
+    image: "flexgen.png"
+    links:
+      - label: "Paper"
+        url: "https://ieeexplore.ieee.org/document/10813021"
+      - label: "Code (Coming Soon)"
+        url: "#"
+  
+  - title: "Filling the Missing: Exploring Generative AI for Enhanced Federated Learning over Heterogeneous Mobile Edge Devices"
+    authors: ["Peichun Li", "Hanwen Zhang", "Yuan Wu", "Liping Qian", "Rong Yu", "Dusit Niyato", "Xuemin Shen"]
+    venue: "IEEE TMC (Oct. 2024)"
+    image: "fimi.png"
+    links:
+      - label: "Paper"
+        url: "https://ieeexplore.ieee.org/abstract/document/10454003"
+      - label: "Code (Coming Soon)"
+        url: "#"
+  
+  - title: "Snowball: Energy Efficient and Accurate Federated Learning with Coarse-to-Fine Compression over Heterogeneous Wireless Edge Devices"
+    authors: ["Peichun Li", "Guoliang Cheng", "Xumin Huang", "Jiawen Kang", "Rong Yu", "Yuan Wu", "Miao Pan", "Dusit Niyato"]
+    venue: "IEEE TWC (Oct. 2023)"
+    image: "snowball.png"
+    links:
+      - label: "Paper"
+        url: "https://ieeexplore.ieee.org/document/10051649"
+
+  
+  - title: "FedRelay: Federated Relay Learning for 6G Mobile Edge Intelligence"
+    authors: ["Peichun Li", "Yupei Zong", "Chaorui Zhang", "Yuan Wu", "Rong Yu"]
+    venue: "IEEE TVT (April 2023)"
+    image: "fedrelay.png"
+    links:
+      - label: "Paper"
+        url: "https://ieeexplore.ieee.org/document/9964279"
+  
+  - title: "FAST: Fidelity-Adjustable Semantic Transmission over Heterogeneous Wireless Networks"
+    authors: ["Peichun Li", "Guoliang Cheng", "Jiawen Kang", "Rong Yu", "Liping Qian", "Yuan Wu", "Dusit Niyato"]
+    venue: "IEEE ICC 2023"
+    image: "fast.png"
+    links:
+      - label: "Paper"
+        url: "https://ieeexplore.ieee.org/abstract/document/10279541"
+  
+  - title: "FedGreen: Federated learning with fine-grained gradient compression for green mobile edge computing"
+    authors: ["Peichun Li", "Xumin Huang", "Miao Pan", "Rong Yu"]
+    venue: "IEEE GLOBECOM 2021"
+    image: "fedgreen.png"
+    links:
+      - label: "Paper"
+        url: "https://ieeexplore.ieee.org/abstract/document/9685582"

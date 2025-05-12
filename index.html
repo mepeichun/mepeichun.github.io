@@ -1,0 +1,684 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Peichun Li's Homepage</title>
+  <link rel="icon" type="image/png" href="https://www.um.edu.mo/wp-content/uploads/2020/09/cropped-512-32x32.png">
+
+  <!-- Bootstrap CSS via CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+  <!-- Font Awesome via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Pygments Trac Style via CDN (approximate match using highlight.js) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700italic,700);
+
+    body {
+      background-color: #fff;
+      padding: 50px;
+      font-size: 14px/1.5;
+      font-family: "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #727272;
+      font-weight: 400;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #222;
+      margin: 0 0 20px;
+    }
+
+    p,
+    ul,
+    ol,
+    table,
+    pre,
+    dl {
+      margin: 0 0 0 0px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.1;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    h2 {
+      color: #393939;
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #494949;
+    }
+
+    a {
+      color: #39c;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #069;
+    }
+
+    a small {
+      font-size: 11px;
+      color: #777;
+      margin-top: -0.3em;
+      display: block;
+    }
+
+    a:hover small {
+      color: #777;
+    }
+
+    .wrapper {
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    blockquote {
+      border-left: 1px solid #e5e5e5;
+      margin: 0;
+      padding: 0 0 0 20px;
+      font-style: italic;
+    }
+
+    code,
+    pre {
+      font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+      color: #333;
+      font-size: 12px;
+    }
+
+    pre {
+      padding: 8px 15px;
+      background: #f8f8f8;
+      border-radius: 5px;
+      border: 1px solid #e5e5e5;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 5px 10px;
+      /*border-bottom:1px solid #e5e5e5;*/
+    }
+
+    dt {
+      color: #444;
+      font-weight: 700;
+    }
+
+    th {
+      color: #444;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    header {
+      width: 280px;
+      float: left;
+      position: fixed;
+      -webkit-font-smoothing: subpixel-antialiased;
+      padding-right: 40px;
+    }
+
+    header ul {
+      list-style: none;
+      height: 40px;
+      padding: 0;
+      background: #f4f4f4;
+      border-radius: 5px;
+      border: 1px solid #e0e0e0;
+      width: 270px;
+    }
+
+    header li {
+      width: 89px;
+      float: left;
+      border-right: 1px solid #e0e0e0;
+      height: 40px;
+    }
+
+    header li:first-child a {
+      border-radius: 5px 0 0 5px;
+    }
+
+    header li:last-child a {
+      border-radius: 0 5px 5px 0;
+    }
+
+    header ul a {
+      line-height: 1;
+      font-size: 11px;
+      color: #999;
+      display: block;
+      text-align: center;
+      padding-top: 6px;
+      height: 34px;
+    }
+
+    header ul a:hover {
+      color: #999;
+    }
+
+    header ul a:active {
+      background-color: #f0f0f0;
+    }
+
+    strong {
+      color: #222;
+      font-weight: 700;
+    }
+
+    header ul li+li+li {
+      border-right: none;
+      width: 89px;
+    }
+
+    header ul a strong {
+      font-size: 14px;
+      display: block;
+      color: #222;
+    }
+
+    section {
+      width: 570px;
+      float: right;
+      padding-bottom: 5px;
+    }
+
+    small {
+      font-size: 11px;
+    }
+
+    hr {
+      border: 0;
+      background: #e5e5e5;
+      height: 1px;
+      margin: 0 0 20px;
+    }
+
+    footer {
+      width: 270px;
+      float: left;
+      position: fixed;
+      bottom: 50px;
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+    @media print,
+    screen and (max-width: 960px) {
+
+      div.wrapper {
+        width: auto;
+        margin: 0;
+      }
+
+      header,
+      section,
+      footer {
+        float: none;
+        position: static;
+        width: auto;
+      }
+
+      header {
+        padding-right: 320px;
+      }
+
+      section {
+        border-bottom: 1px solid #e5e5e5;
+        border-width: 1px 0;
+        padding: 0 0 15px 0;
+        margin: 0 0 0 0;
+      }
+
+      section.outer {
+        border-top: 1px solid #e5e5e5;
+        border-width: 1px 0;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+      }
+
+      header a small {
+        display: inline;
+      }
+
+      header ul {
+        position: absolute;
+        right: 50px;
+        top: 52px;
+      }
+    }
+
+    @media print,
+    screen and (max-width: 720px) {
+      body {
+        word-wrap: break-word;
+      }
+
+      header {
+        padding: 0;
+      }
+
+      header ul,
+      header p.view {
+        position: static;
+      }
+
+      pre,
+      code {
+        word-wrap: normal;
+      }
+    }
+
+    @media print,
+    screen and (max-width: 480px) {
+      body {
+        padding: 15px;
+      }
+
+      header ul {
+        width: 99%;
+      }
+
+      header li,
+      header ul li+li+li {
+        width: 33%;
+      }
+    }
+
+    @media print {
+      body {
+        padding: 0.6in;
+        font-size: 12pt;
+        color: #444;
+      }
+    }
+
+    @media print,
+    screen {
+      body {
+        padding-bottom: 1.2in;
+      }
+    }
+
+
+    /*from JW */
+    div.title a:link,
+    div.title a:visited {
+      color: #000000
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    div.title,
+    div.ftheader,
+    span.venue,
+    span.highlight {
+      font-weight: 600
+    }
+
+    h4,
+    div.title,
+    div.ftsubheader {
+      font-size: 100%
+    }
+
+
+    div.authors a:link,
+    div.authors a:visited {
+      color: #777777
+    }
+
+    div.authors {
+      font-size: 100%;
+      color: #777777
+    }
+
+    span.author {
+      white-space: nowrap
+    }
+
+    span.me {
+      color: #000000;
+      font-weight: 600
+    }
+
+    span.highlight,
+    span.highlight a:link,
+    span.highlight a:visited {
+      color: #BB2222
+    }
+
+    span.tag,
+    span.tag a:link,
+    span.tag a:visited {
+      color: #0055AA
+    }
+
+    a:link {
+      color: #0055AA;
+    }
+
+    a:visited {
+      color: #0055AA;
+    }
+
+    section.pub {
+      padding-bottom: 25px;
+    }
+  </style>
+  <style>
+    /* .cv_right { float:right; _position:relative; } */
+    .cv_right {
+      margin-left: 42px;
+      position: absolute;
+    }
+
+  .image.avatar {
+    width: 160px;        /* 固定宽度 */
+    height: 160px;       /* 固定高度（与宽度相同） */
+    border-radius: 50%;  /* 50% 确保圆形 */
+    overflow: hidden;    /* 隐藏超出部分 */
+    display: inline-block; /* 确保正确布局 */
+  }
+
+  .image.avatar img {
+    width: 100%;        /* 图片填满容器 */
+    height: 100%;       /* 图片填满容器 */
+    object-fit: cover;  /* 保持比例，裁剪多余部分 */
+  }
+    h1 {
+      font-family: "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      font-family: "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+
+    h2,
+    h3 {
+      /*color: #a31f34;*/
+      margin-top: 0.7em;
+      margin-bottom: 0.3em;
+      padding-bottom: 0.2em;
+      line-height: 1.0;
+      padding-top: 0.5em;
+      border-bottom: 1px solid #aaaaaa;
+    }
+
+    h1 {
+      font-size: 250%;
+    }
+
+    h2 {
+      padding-top: 0.8em;
+      font-size: 160%;
+    }
+
+    h2+h3 {
+      padding-top: 0.2em;
+    }
+
+    h3 {
+      font-size: 110%;
+      border-bottom: none;
+    }
+
+    /* Footer */
+
+    #footer {
+      border-top: 0;
+      color: #c0c0c0;
+      overflow: hidden;
+      padding: 2em 0 1em 0;
+    }
+
+    #footer .copyright {
+      line-height: 1em;
+      list-style: none;
+      padding: 0;
+    }
+
+    #footer .copyright li {
+      border-left: solid 1px #d4d4d4;
+      display: inline-block;
+      font-size: 0.8em;
+      margin-left: 1em;
+      padding-left: 1em;
+    }
+
+    #footer .copyright li:first-child {
+      border-left: 0;
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    #footer .copyright li a {
+      color: inherit;
+    }
+  </style>
+  <!-- Custom Styles (you can host your own or write inline styles) -->
+  <link rel="stylesheet" href="stylesheets/styles.css"> <!-- Optional -->
+  <link rel="stylesheet" href="stylesheets/special.css"> <!-- Optional -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <br />
+      <div align="left">
+        <span class="image avatar">
+          <img src="images/profile_square.jpg" alt="Profile Picture" width="160" height="160">
+        </span>
+      </div>
+      <br />
+      <span>
+        <h1><b>Peichun Li</b></h1>
+      </span>
+      <p>
+        <a href="https://github.com/mepeichun">
+          <font color="#222"><i class="fab fa-github fa-2x"></i></font>
+        </a> &nbsp
+        <a href="https://scholar.google.com.hk/citations?user=hC0FPWkAAAAJ&hl=en">
+          <font color="#222"><i class="fas fa-graduation-cap fa-2x"></i></font>
+        </a> &nbsp &nbsp
+      </p>
+      <br />
+      <!-- <h5>Contact:</h5>
+      <p>
+        <font face="courier"></font>
+      </p> -->
+    </header>
+
+    <section class="outer">
+      <section id="about">
+        <p>I am a first-year Ph.D. student in Computer Science at the University of Macau, advised by Prof. <a href="https://www.fst.um.edu.mo/personal/yuanwu/">Yuan Wu</a>. Prior to this, I earned my B.Eng. in Electronic Information Engineering and my M.Sc. in Control Science and Engineering, both from the Guangdong University of Technology. </p>
+<p>My research focuses on <strong>edge computing</strong> and deep learning, with a particular interest in <strong>federated learning</strong> and <strong>efficient algorithms for AI applications</strong>.</p>
+<h3></h3>
+<p>I am working on cleaning up the code for my published paper. The code for some of my papers will be open-sourced soon.</p>
+<h2>📢News</h2>
+<ul>
+<li><strong>[May 11, 2025]</strong> Coauthored paper "Compression Meets Security: Low-Complexity Linear Collaborative Federated Learning with Enhanced Accuracy" has been accepted by <strong>IEEE TMC</strong>.</li>
+<li><strong>[April 30, 2025]</strong> Coauthored paper "VimGeo: Efficient Cross-View Geo-Localization with Vision Mamba Architecture" has been accepted by <strong>IJCAI-25</strong>.</li>
+</ul>
+<h2>One More Thing</h2>
+<p>Here are some tools I would like to share with you, which might be useless (or perhaps useful).</p>
+<ul>
+<li><a href="https://mepeichun.github.io/ieee-comsoc-cfp/">IEEE ComSoc Special Issue Tracker (Updated Automatically)</a></li>
+<li><a href="https://mepeichun.github.io/clockclock24.html">Clockclock (Matrix Clock)</a></li>
+</ul>
+      </section>
+
+      <section id="research">
+        <h2>Publications <span style="float:right;"><a href="https://scholar.google.com.hk/citations?user=hC0FPWkAAAAJ&hl=en">[Full List]</a></span></h2>
+        <!-- <p><i>* indicates equal contribution</i></p> -->
+        <br>
+        <section class="pub">
+            <table width="100%" align="center" border="0">
+                <tr>
+                    <td width="25%" valign="top">
+                        <a class="image"><img src="images/anycostfl.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="75%" align="center">
+                        <div class='title'>AnycostFL: Efficient On-Demand Federated Learning over Heterogeneous Edge Devices</div>
+                        <div class='authors'><span class='me'>Peichun Li</span>, <span class='author'>Guoliang Cheng</span>, <span class='author'>Xumin Huang</span>, <span class='author'>Jiawen Kang</span>, <span class='author'>Rong Yu</span>, <span class='author'>Yuan Wu</span>, <span class='author'>Miao Pan</span></div>
+                        <div>
+                            <span class='tag'><b>INFOCOM 2023</b></span> / <span class='tag'><a href='https://ieeexplore.ieee.org/abstract/document/10229017'>Paper</a></span> / <span class='tag'><a href='#'>Code (Coming Soon)</a></span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+<section class="pub">
+            <table width="100%" align="center" border="0">
+                <tr>
+                    <td width="25%" valign="top">
+                        <a class="image"><img src="images/flexgen.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="75%" align="center">
+                        <div class='title'>FlexGen: Efficient On-Demand Generative AI Service with Flexible Diffusion Model in Mobile Edge Networks</div>
+                        <div class='authors'><span class='me'>Peichun Li</span>, <span class='author'>Huanyu Dong</span>, <span class='author'>Liping Qian</span>, <span class='author'>Sheng Zhou</span>, <span class='author'>Yuan Wu</span></div>
+                        <div>
+                            <span class='tag'><b>IEEE TCCN (April 2025)</b></span> / <span class='tag'><a href='https://ieeexplore.ieee.org/document/10813021'>Paper</a></span> / <span class='tag'><a href='#'>Code (Coming Soon)</a></span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+<section class="pub">
+            <table width="100%" align="center" border="0">
+                <tr>
+                    <td width="25%" valign="top">
+                        <a class="image"><img src="images/fimi.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="75%" align="center">
+                        <div class='title'>Filling the Missing: Exploring Generative AI for Enhanced Federated Learning over Heterogeneous Mobile Edge Devices</div>
+                        <div class='authors'><span class='me'>Peichun Li</span>, <span class='author'>Hanwen Zhang</span>, <span class='author'>Yuan Wu</span>, <span class='author'>Liping Qian</span>, <span class='author'>Rong Yu</span>, <span class='author'>Dusit Niyato</span>, <span class='author'>Xuemin Shen</span></div>
+                        <div>
+                            <span class='tag'><b>IEEE TMC (Oct. 2024)</b></span> / <span class='tag'><a href='https://ieeexplore.ieee.org/abstract/document/10454003'>Paper</a></span> / <span class='tag'><a href='#'>Code (Coming Soon)</a></span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+<section class="pub">
+            <table width="100%" align="center" border="0">
+                <tr>
+                    <td width="25%" valign="top">
+                        <a class="image"><img src="images/snowball.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="75%" align="center">
+                        <div class='title'>Snowball: Energy Efficient and Accurate Federated Learning with Coarse-to-Fine Compression over Heterogeneous Wireless Edge Devices</div>
+                        <div class='authors'><span class='me'>Peichun Li</span>, <span class='author'>Guoliang Cheng</span>, <span class='author'>Xumin Huang</span>, <span class='author'>Jiawen Kang</span>, <span class='author'>Rong Yu</span>, <span class='author'>Yuan Wu</span>, <span class='author'>Miao Pan</span>, <span class='author'>Dusit Niyato</span></div>
+                        <div>
+                            <span class='tag'><b>IEEE TWC (Oct. 2023)</b></span> / <span class='tag'><a href='https://ieeexplore.ieee.org/document/10051649'>Paper</a></span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+<section class="pub">
+            <table width="100%" align="center" border="0">
+                <tr>
+                    <td width="25%" valign="top">
+                        <a class="image"><img src="images/fedrelay.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="75%" align="center">
+                        <div class='title'>FedRelay: Federated Relay Learning for 6G Mobile Edge Intelligence</div>
+                        <div class='authors'><span class='me'>Peichun Li</span>, <span class='author'>Yupei Zong</span>, <span class='author'>Chaorui Zhang</span>, <span class='author'>Yuan Wu</span>, <span class='author'>Rong Yu</span></div>
+                        <div>
+                            <span class='tag'><b>IEEE TVT (April 2023)</b></span> / <span class='tag'><a href='https://ieeexplore.ieee.org/document/9964279'>Paper</a></span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+<section class="pub">
+            <table width="100%" align="center" border="0">
+                <tr>
+                    <td width="25%" valign="top">
+                        <a class="image"><img src="images/fast.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="75%" align="center">
+                        <div class='title'>FAST: Fidelity-Adjustable Semantic Transmission over Heterogeneous Wireless Networks</div>
+                        <div class='authors'><span class='me'>Peichun Li</span>, <span class='author'>Guoliang Cheng</span>, <span class='author'>Jiawen Kang</span>, <span class='author'>Rong Yu</span>, <span class='author'>Liping Qian</span>, <span class='author'>Yuan Wu</span>, <span class='author'>Dusit Niyato</span></div>
+                        <div>
+                            <span class='tag'><b>IEEE ICC 2023</b></span> / <span class='tag'><a href='https://ieeexplore.ieee.org/abstract/document/10279541'>Paper</a></span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+<section class="pub">
+            <table width="100%" align="center" border="0">
+                <tr>
+                    <td width="25%" valign="top">
+                        <a class="image"><img src="images/fedgreen.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="75%" align="center">
+                        <div class='title'>FedGreen: Federated learning with fine-grained gradient compression for green mobile edge computing</div>
+                        <div class='authors'><span class='me'>Peichun Li</span>, <span class='author'>Xumin Huang</span>, <span class='author'>Miao Pan</span>, <span class='author'>Rong Yu</span></div>
+                        <div>
+                            <span class='tag'><b>IEEE GLOBECOM 2021</b></span> / <span class='tag'><a href='https://ieeexplore.ieee.org/abstract/document/9685582'>Paper</a></span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+      </section>
+
+      <section id="footer">
+        <div class="container">
+          <ul class="copyright">
+            <li>&copy; Peichun Li 2025</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <!-- Optional JavaScript (Bootstrap + highlight.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <!-- Optional fix script if needed -->
+    <script src="javascripts/scale.fix.js"></script>
+  </div>
+</body>
+
+</html>

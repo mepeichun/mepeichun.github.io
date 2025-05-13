@@ -13,7 +13,7 @@ I am working on cleaning up the code for my published paper. The code for some o
 
 ## One More Thing
 
-Here are some tools I would like to share with you, which might be useless (or perhaps useful).
+I would like to share some tools I have developed—they might be useful (or maybe not, but hopefully worth a look!).
 
 - [IEEE ComSoc Special Issue Tracker (Updated Automatically)](https://mepeichun.github.io/ieee-comsoc-cfp/)
 - [Clockclock (Matrix Clock)](https://mepeichun.github.io/clockclock24.html)

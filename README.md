@@ -3,6 +3,8 @@
 
 This project generates an HTML webpage showcasing a person's publications and personal information, by converting a Markdown file and a YAML file into HTML. It uses a Jinja2 template to structure the final page, which is saved as `index.html`.
 
+See the page [here](https://mepeichun.github.io/) 
+
 ## Prerequisites
 
 Before running the script, ensure that you have the following Python libraries installed:

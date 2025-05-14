@@ -46,17 +46,17 @@ def generate_publication_html(yaml_data, your_name):
     return '\n'.join(html_blocks)
 
 # Read about.md and convert
-with open('about.md', 'r', encoding='utf-8') as f:
+with open('./data/about.md', 'r', encoding='utf-8') as f:
     about_md = f.read()
 about_html = markdown.markdown(about_md)
 
 # Read publication.yaml and convert using function
-with open('publication.yaml', 'r', encoding='utf-8') as f:
+with open('./data/publication.yaml', 'r', encoding='utf-8') as f:
     publication_yaml = f.read()
 publication_html = generate_publication_html(publication_yaml, your_name='Peichun Li')
 
 # Read the HTML template
-with open('template.html', 'r', encoding='utf-8') as f:
+with open('./data/template.html', 'r', encoding='utf-8') as f:
     template = Template(f.read())
 
 # Define your personal information

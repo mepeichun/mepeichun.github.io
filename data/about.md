@@ -17,3 +17,4 @@ I would like to share some tools I have developed—they might be useful (or may
 
 - [IEEE ComSoc Special Issue Tracker (Updated Automatically)](https://mepeichun.github.io/ieee-comsoc-cfp/)
 - [Clockclock (Matrix Clock)](https://mepeichun.github.io/clockclock24.html)
+- [Naughty Cat Clock](https://mepeichun.github.io/naughty-cat-clock/)

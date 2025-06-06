@@ -1,6 +1,8 @@
 I am a first-year Ph.D. student in Computer Science at the University of Macau, advised by Prof. [Yuan Wu](https://www.fst.um.edu.mo/personal/yuanwu/). Prior to this, I earned my B.Eng. in Electronic Information Engineering and my M.Sc. in Control Science and Engineering, both under the supervision of Prof. [Rong Yu](https://scholar.google.com.hk/citations?user=4nlL-PwAAAAJ&hl=en) at Guangdong University of Technology. 
 
-My research focuses on **edge computing** and deep learning, with a particular interest in **federated learning** and **efficient algorithms for AI applications**.
+My research focuses on **edge computing** and distributed learning, with a particular interest in **federated learning** and **efficient algorithms for AI applications**.
+
+For more details, please see my CV [here](./data/Peichun_CV.pdf).
 
 ###
 

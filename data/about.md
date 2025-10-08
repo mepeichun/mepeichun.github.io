@@ -18,4 +18,5 @@ I am working on cleaning up the code for my published paper. The code for some o
 I would like to share some tools I have developed—they might be useful (or maybe not, but hopefully worth a look!).
 
 - [IEEE ComSoc Special Issue Tracker (Updated Automatically)](https://mepeichun.github.io/ieee-comsoc-cfp/)
+- [IEEE BibTeX Modifier (期刊名&作者列表精简)](https://mepeichun.github.io/ieee-bibtex-modifier/)
 - [Clock Zoo (时光动物园) - Grash the time](https://mepeichun.github.io/clock-zoo/)

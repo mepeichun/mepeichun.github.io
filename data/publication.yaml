@@ -9,6 +9,15 @@ publications:
       - label: "Code (Coming Soon)"
         url: "#"
   
+  - title: "Toward Resource-Efficient Collaboration of Large AI Models in Mobile Edge Networks"
+    authors: ["Peichun Li", "Liping Qian", "Dusit Niyato", "Siwen Mao", "Yuan Wu"]
+    venue: "IEEE Networks (Dec. 2025 Accepted)"
+    image: "collaborativeLAIM.png"
+    links:
+      - label: "Paper (Coming Soon)"
+        url: "#"
+
+
   - title: "FlexGen: Efficient On-Demand Generative AI Service with Flexible Diffusion Model in Mobile Edge Networks"
     authors: ["Peichun Li", "Huanyu Dong", "Liping Qian", "Sheng Zhou", "Yuan Wu"]
     venue: "IEEE TCCN (April 2025)"
@@ -16,8 +25,6 @@ publications:
     links:
       - label: "Paper"
         url: "https://ieeexplore.ieee.org/document/10813021"
-      - label: "Code (Coming Soon)"
-        url: "#"
   
   - title: "Filling the Missing: Exploring Generative AI for Enhanced Federated Learning over Heterogeneous Mobile Edge Devices"
     authors: ["Peichun Li", "Hanwen Zhang", "Yuan Wu", "Liping Qian", "Rong Yu", "Dusit Niyato", "Xuemin Shen"]
@@ -26,8 +33,6 @@ publications:
     links:
       - label: "Paper"
         url: "https://ieeexplore.ieee.org/abstract/document/10454003"
-      - label: "Code (Coming Soon)"
-        url: "#"
   
   - title: "Snowball: Energy Efficient and Accurate Federated Learning with Coarse-to-Fine Compression over Heterogeneous Wireless Edge Devices"
     authors: ["Peichun Li", "Guoliang Cheng", "Xumin Huang", "Jiawen Kang", "Rong Yu", "Yuan Wu", "Miao Pan", "Dusit Niyato"]

@@ -10,7 +10,7 @@ publications:
         url: "#"
   
   - title: "Toward Resource-Efficient Collaboration of Large AI Models in Mobile Edge Networks"
-    authors: ["Peichun Li", "Liping Qian", "Dusit Niyato", "Siwen Mao", "Yuan Wu"]
+    authors: ["Peichun Li", "Liping Qian", "Dusit Niyato", "Shiwen Mao", "Yuan Wu"]
     venue: "IEEE Network (Dec. 2025)"
     image: "collaborativeLAIM.png"
     links:

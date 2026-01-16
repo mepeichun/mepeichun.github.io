@@ -11,11 +11,11 @@ publications:
   
   - title: "Toward Resource-Efficient Collaboration of Large AI Models in Mobile Edge Networks"
     authors: ["Peichun Li", "Liping Qian", "Dusit Niyato", "Shiwen Mao", "Yuan Wu"]
-    venue: "IEEE Network (Dec. 2025)"
+    venue: "IEEE Network (Jan. 2026)"
     image: "collaborativeLAIM.png"
     links:
-      - label: "Paper (Accepted, Coming Soon)"
-        url: "#"
+      - label: "Paper"
+        url: "https://ieeexplore.ieee.org/document/11353340"
 
 
   - title: "FlexGen: Efficient On-Demand Generative AI Service with Flexible Diffusion Model in Mobile Edge Networks"

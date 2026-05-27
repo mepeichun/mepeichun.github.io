@@ -1,4 +1,12 @@
 publications:
+  - title: "Enabling Multi-Agentic AI in Future Wireless Networks: An End-Edge-Cloud Approach"
+    authors: ["Peichun Li", "Liping Qian", "Haijun Zhang", "Zhiguo Shi", "Yuan Wu"]
+    venue: "accepted by IEEE Network"
+    image: "distrithinking.png"
+    links:
+      - label: "Paper"
+        url: "#"
+
   - title: "AnycostFL: Efficient On-Demand Federated Learning over Heterogeneous Edge Devices"
     authors: ["Peichun Li", "Guoliang Cheng", "Xumin Huang", "Jiawen Kang", "Rong Yu", "Yuan Wu", "Miao Pan"]
     venue: "INFOCOM 2023"

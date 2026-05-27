@@ -6,12 +6,12 @@ publications:
     links:
       - label: "Paper"
         url: "https://ieeexplore.ieee.org/abstract/document/10229017"
-      - label: "Code (Coming Soon)"
-        url: "#"
+      # - label: "Code (Coming Soon)"
+      #   url: "#"
   
   - title: "Toward Resource-Efficient Collaboration of Large AI Models in Mobile Edge Networks"
     authors: ["Peichun Li", "Liping Qian", "Dusit Niyato", "Shiwen Mao", "Yuan Wu"]
-    venue: "IEEE Network (Jan. 2026)"
+    venue: "IEEE Network (May 2026)"
     image: "collaborativeLAIM.png"
     links:
       - label: "Paper"

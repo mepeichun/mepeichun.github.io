@@ -9,7 +9,7 @@ For more details, please see my CV [here](./data/Peichun_CV.pdf).
 I am working on cleaning up the code for my published paper. The code for some of my papers will be open-sourced soon.
 
 ## 📢News
-- **[Jan, 2026]** Paper "Toward Resource-Efficient Collaboration of Large AI Models in Mobile Edge Networks" has been accepted by **IEEE Network**.
+- **[May, 2026]** Paper "Enabling Multi-Agentic AI in Future Wireless Networks: An End-Edge-Cloud Approach" has been accepted by **IEEE Network**.
 - **[May, 2025]** Coauthored paper "Compression Meets Security: Low-Complexity Linear Collaborative Federated Learning with Enhanced Accuracy" has been accepted by **IEEE TMC**.
 - **[April, 2025]** Coauthored paper "VimGeo: Efficient Cross-View Geo-Localization with Vision Mamba Architecture" has been accepted by **IJCAI-25**.
 

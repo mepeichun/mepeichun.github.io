@@ -1,12 +1,9 @@
-I am a second-year Ph.D. student in Computer Science at the University of Macau, advised by Prof. [Yuan Wu](https://www.fst.um.edu.mo/personal/yuanwu/). Prior to this, I earned my B.Eng. in Electronic Information Engineering and my M.Sc. in Control Science and Engineering, both under the supervision of Prof. [Rong Yu](https://scholar.google.com.hk/citations?user=4nlL-PwAAAAJ&hl=en) at Guangdong University of Technology. 
+I am a third-year Ph.D. student in Computer Science at the University of Macau, advised by Prof. [Yuan Wu](https://www.fst.um.edu.mo/personal/yuanwu/). Prior to this, I earned my B.Eng. in Electronic Information Engineering and my M.Sc. in Control Science and Engineering, both under the supervision of Prof. [Rong Yu](https://scholar.google.com.hk/citations?user=4nlL-PwAAAAJ&hl=en) at Guangdong University of Technology. 
 
 My research focuses on **edge computing** and **distributed learning**. My earlier work explored **federated learning**, and I am now shifting towards **collaborative large model deployment** and **multi-agentic AI systems** over edge networks.
 
 For more details, please see my CV [here](./data/Peichun_CV.pdf).
 
-###
-
-I am working on cleaning up the code for my published paper. The code for some of my papers will be open-sourced soon.
 
 ## 📢News
 - **[May, 2026]** Paper "Enabling Multi-Agentic AI in Future Wireless Networks: An End-Edge-Cloud Approach" has been accepted by **IEEE Network**.

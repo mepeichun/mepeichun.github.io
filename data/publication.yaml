@@ -5,7 +5,7 @@ publications:
     image: "distrithinking.png"
     links:
       - label: "Paper"
-        url: "#"
+        url: "https://ieeexplore.ieee.org/abstract/document/11573145"
 
   - title: "AnycostFL: Efficient On-Demand Federated Learning over Heterogeneous Edge Devices"
     authors: ["Peichun Li", "Guoliang Cheng", "Xumin Huang", "Jiawen Kang", "Rong Yu", "Yuan Wu", "Miao Pan"]
